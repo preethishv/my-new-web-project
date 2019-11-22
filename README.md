@@ -4,5 +4,5 @@
 reminds user of the deadline of a specific task and warns jeopardy of tasks that depend on it.*
 
 ***
-`Any kind of feature additions are highly welcome!! 😁`
+`Any kind of feature additions are highly welcome!!😁`
 ***

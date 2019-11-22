@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="jumbotron">
+      <h1 class="display-4">My Todo List</h1>
+  </div>
+
+  <div *ngFor="let task of tasks">
+    <div class="card text-white bg-primary mb-3">
+        <div class="card-header">{{task.title}}</div>
+        <div class="card-body">
+          <h5 class="card-title"> Hours expected: {{ task.duration}}</h5>
+          <p class="card-text"> {{ task.description }}</p>
+        </div>
+      </div>
+  </div>
+</div>
